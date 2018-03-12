@@ -199,4 +199,3 @@ for n in [6, 8, 10, 12, 16, 20, 26, 32, 42, 52, 66, 84, 108, 136, 174, 220, 280,
   write(outfile, join(time_to_mut, ","), "\n")
   close(outfile)
 end
-end
