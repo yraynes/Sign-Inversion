@@ -168,7 +168,7 @@ function simulate(pop_Ni)
   mut_state[1] = mutator_strength
   population[mut_state] = Lineage(1,init_mut_N,mut_state,mutator_strength)
   mut_f = assay_mutation_rate(population)
-  popw, popN = average_fitness(population)
+  popw, pop_N = average_fitness(population)
   generations = Int64
   generations = 0
   #initialize generations counter
